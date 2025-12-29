@@ -12,15 +12,9 @@ Install with [npm](https://www.npmjs.com/):
 $ npm install --save pretty-regex
 ```
 
-## Examples
+## Example Output
 
-This input:
-
-![](./assets/input.png)
-
-Prints the following:
-
-![](./assets/output.png)
+![](./assets/example.png)
 
 ## Usage
 
