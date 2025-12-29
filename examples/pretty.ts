@@ -18,6 +18,10 @@ const regex = [
   /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/
 ];
 
+console.log();
+console.group();
 for (const pattern of regex) {
   console.log(parse(pattern).print());
 }
+console.groupEnd();
+console.log();
